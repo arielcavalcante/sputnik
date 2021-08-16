@@ -1,0 +1,157 @@
+body {
+	overflow-x: hidden;
+}
+.ov-hide{
+	overflow-x: hidden;
+}
+.scroll-hor {
+	overflow-x: auto;
+}
+.scroll-hor::-webkit-scrollbar {
+	display: none;
+}
+.scroll-hor {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+.bh7 {
+	height: 7vh;
+}
+.large {
+	font-size: 1.5rem;
+}
+
+.comfortable {
+	padding: 3.33em !important;
+}
+
+/* Define o aspecto da div .square para um quadrado e alinha oticamente svg de "play" dentro do quadrado .thumbnail. */
+.square {
+	aspect-ratio: 1/1;
+}
+#releases .thumbnail {
+	position: relative;
+}
+#releases svg {
+	width: 50%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-40%, -50%);
+}
+.pad {
+	padding: 0.5rem;
+}
+.unpad {
+	padding: 0 !important;
+	margin: -0.5rem !important;
+}
+.column {
+	display: flex;
+	flex-direction: column;
+}
+.isolated {
+	margin: 4.3rem 0;
+}
+.no-wrap {
+	flex-wrap: nowrap;
+}
+.left-t {
+	align-items: flex-start;
+}
+
+.isolated-tiny {
+	margin: 0.125rem 0;
+}
+.flex {
+	display: flex;
+}
+
+/* 
+
+.rowgap10 {
+	-moz-row-gap: 10px;
+	row-gap: 10px;
+}
+.rowgap20 {
+	-moz-row-gap: 20px;
+	row-gap: 20px;
+}
+.rowgap30 {
+	-moz-row-gap: 30px;
+	row-gap: 30px;
+}
+.rowgap40 {
+	-moz-row-gap: 40px;
+	row-gap: 40px;
+}
+.rowgap50 {
+	-moz-row-gap: 50px;
+	row-gap: 50px;
+}
+.rowgap60 {
+	-moz-row-gap: 60px;
+	row-gap: 60px;
+}
+.gap10 {
+	-webkit-gap: 10px;
+	-moz-gap: 10px;
+	gap: 10px;
+}
+.gap20 {
+	-webkit-gap: 20px;
+	-moz-gap: 20px;
+	gap: 20px;
+}
+.gap30 {
+	-webkit-gap: 30px;
+	-moz-gap: 30px;
+	gap: 30px;
+}
+.gap40 {
+	-webkit-gap: 40px;
+	-moz-gap: 40px;
+	gap: 40px;
+}
+.gap50 {
+	-webkit-gap: 50px;
+	-moz-gap: 50px;
+	gap: 50px;
+}
+.gap60 {
+	-webkit-gap: 60px;
+	-moz-gap: 60px;
+	gap: 60px;
+}
+.colgap10 {
+	-webkit-column-gap: 10px;
+	-moz-column-gap: 10px;
+	column-gap: 10px;
+}
+.colgap20 {
+	-webkit-column-gap: 20px;
+	-moz-column-gap: 20px;
+	column-gap: 20px;
+}
+.colgap30 {
+	-webkit-column-gap: 30px;
+	-moz-column-gap: 30px;
+	column-gap: 30px;
+}
+.colgap40 {
+	-webkit-column-gap: 40px;
+	-moz-column-gap: 40px;
+	column-gap: 40px;
+}
+.colgap50 {
+	-webkit-column-gap: 50px;
+	-moz-column-gap: 50px;
+	column-gap: 50px;
+}
+.colgap60 {
+	-webkit-column-gap: 60px;
+	-moz-column-gap: 60px;
+	column-gap: 60px;
+}
+*/

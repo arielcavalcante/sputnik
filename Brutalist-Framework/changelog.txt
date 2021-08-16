@@ -1,0 +1,38 @@
+Brutalist Framework Changelog
+Version: 2.3.1 Update
+Grid system is replaced with Blueprint Grid (http://www.blueprintgrid.com) 
+
+Version 2.3
+General:
++ Added browserconfig.xml to root directory for Microsoft icon support
+
+BELL:
++ (no changes)
+
+Flavors:
++ New Flavors: sage, slime, fuchsia, apple, indigo, denim, flaxen, dijon
++ New Color Combos: seaweed-slime, steak-beer, sapphire-sky, midnight-sky, greek, blueprint
++ New Gradients: violence, viking, socialize, emptiness, clean, evergreen
++ Deprecated: blueberry-pomegranate, olive-mushroom
+
+BFX:
++ New TumbleText effect
++ New shift-glitch effect
++ Updated animated gradient classes
+
+BUIX:
++ New Tree List navigation element
+
+BUTCH:
++ Added support for double borders & outlines
++ Added description lists support
++ Updated unordered lists
+
+bIcons:
++ Over 30 new icons added
+
+Rebar:
++ Updated Device Type Visibility classes
+
+Boilerplates:
++ (no changes)

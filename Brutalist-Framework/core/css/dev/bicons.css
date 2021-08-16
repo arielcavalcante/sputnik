@@ -1,0 +1,433 @@
+/* bIcons - Brutalist Icons 2.3
+NOTE: not all text editors support all symbols, so some symbols may appear as boxes. */
+.bi:before { 
+	display: inline-block;
+  font: normal normal normal 14px/1 arial;
+  font-size: inherit; text-rendering: auto; line-height: inherit;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* bIcon Sizes */
+.bi.bi-2x {font-size: 2em;}
+.bi.bi-3x {font-size: 3em;}
+.bi.bi-4x {font-size: 4em;}
+.bi.bi-5x {font-size: 5em;}
+.bi.bi-6x {font-size: 6em;}
+/* Fluid Size Icon! */
+@media screen and (min-width: 320px) {
+  .bi.bi-fi { font-size: calc(16px + (160 - 16) * ((100vw - 300px) / (1600 - 300))); }
+}
+@media screen and (max-width: 319px) {
+  .bi.bi-fi { font-size: 1.6rem; }
+}
+
+/* Danger Zone */
+.bi-alert::before{content:"\❕";}
+.bi-biohazard::before{content:"\☣";}
+.bi-black-flag::before{content:"\🏴";}
+.bi-bomb::before{content:"\💣";}
+.bi-danger::before{content:"\🚧";}
+.bi-dead::before{content:"\☠";}
+.bi-explode::before{content:"\💥";}
+.bi-radioactive::before{content:"\☢";}
+.bi-red-alert::before{content:"\❗";}
+.bi-red-flag::before{content:"\1F6A9";}
+.bi-red-light::before{content:"\1F6A8";}
+.bi-restricted::before{content:"\⛔";}
+.bi-sos::before{content:"\1F198";}
+.bi-warning::before{content:"\⚠";}
+.bi-wrong::before{content:"\❌";}
+.bi-yield::before{content:"\⛛";}
+
+/* Directional */
+.bi-converge-right::before{content:"\⚞";}
+.bi-converge-left::before{content:"\⚟";}
+.bi-left::before{content:"\⬅";}
+.bi-right::before{content:"\➡";}
+.bi-above::before{content:"\⬆";}
+.bi-below::before{content:"\⬇";}
+.bi-up::before{content:"\25B4";}
+.bi-down::before{content:"\25BE";}
+.bi-charrow::before{content:"\➲";}
+.bi-farrow::before{content:"\➠";}
+.bi-point-left::before{content:"\☚";}
+.bi-point-right::before{content:"\☛";}
+.bi-two-way::before{content:"\⛖";}
+.bi-two-way-o::before{content:"\⛗";}
+.bi-down-right::before{content:"\27A5";}
+.bi-up-right::before{content:"\27A6";}
+
+/* Sports and Rec */
+.bi-archery::before{content:"\🏹";}
+.bi-baseball::before{content:"\⚾";}
+.bi-basketball::before{content:"\🏀";}
+.bi-beach::before{content:"\⛱";}
+.bi-bicycle::before{content:"\🚴";}
+.bi-billiards::before{content:"\🎱";}
+.bi-birthday::before{content:"\🎂";}
+.bi-bowling::before{content:"\🎳";}
+.bi-canoe::before{content:"\🛶";}
+.bi-celebrate::before{content:"\🥂";}
+.bi-christmas::before{content:"\🎄";}
+.bi-dating::before{content:"\💞";}
+.bi-dining::before{content:"\🍽";}
+.bi-drama::before{content:"\🎭";}
+.bi-football::before{content:"\🏈";}
+.bi-gaming::before{content:"\🎮";}
+.bi-golf::before{content:"\26F3";}
+.bi-halloween::before{content:"\🎃";}
+.bi-lift::before{content:"\🏋";}
+.bi-model::before{content:"\💃";}
+.bi-movies::before{content:"\🎥";}
+.bi-party::before{content:"\🎉";}
+.bi-row::before{content:"\🚣";}
+.bi-run::before{content:"\🏃";}
+.bi-sailboat::before{content:"\26F5";}
+.bi-soccer::before{content:"\⚽";}
+.bi-surf::before{content:"\🏄";}
+.bi-swim::before{content:"\🏊";}
+.bi-tennis::before{content:"\🎾";}
+.bi-volleyball::before{content:"\🏐";}
+.bi-walk::before{content:"\🚶";}
+
+/* Objects */
+.bi-airplane::before{content:"\✈";}
+.bi-alarm::before{content:"\⏰";}
+.bi-anchor::before{content:"\⚓";}
+.bi-award::before{content:"\🏅";}
+.bi-badge::before{content:"\🎖";}
+.bi-balloon::before{content:"\🎈";}
+.bi-battery::before{content:"\🔋";}
+.bi-bike::before{content:"\🚲";}
+.bi-books::before{content:"\📚";}
+.bi-briefcase::before{content:"\💼";}
+.bi-bulb::before,.idea::before{content:"\💡";}
+.bi-camera::before{content:"\📷";}
+.bi-candle::before{content:"\🕯";}
+.bi-card::before{content:"\💳";}
+.bi-chains::before{content:"\26D3";}
+.bi-church::before{content:"\26EA";}
+.bi-computer::before{content:"\💻";}
+.bi-cosmetic::before{content:"\💄";}
+.bi-diamond::before{content:"\💎";}
+.bi-dice::before{content:"\🎲";}
+.bi-door::before{content:"\🚪";}
+.bi-factory::before{content:"\🏭";}
+.bi-flashlight::before{content:"\🔦";}
+.bi-fountain::before{content:"\26F2";}
+.bi-fuel::before{content:"\26FD";}
+.bi-gift::before{content:"\🎁";}
+.bi-cap::before,.bi-edu::before,.bi-grad::before{content:"\🎓";}
+.bi-guitar::before{content:"\🎸";}
+.bi-hammer::before{content:"\🔨";}
+.bi-home::before,.bi-house::before{content:"\🏠";}
+.bi-key::before{content:"\🔑";}
+.bi-knife::before{content:"\🔪";}
+.bi-map::before, .bi-world::before{content:"\1F5FA";}
+.bi-mic::before{content:"\🎤";}
+.bi-palette::before{content:"\🎨";}
+.bi-piano::before{content:"\🎹";}
+.bi-pick::before{content:"\26CF";}
+.bi-plug::before{content:"\🔌";}
+.bi-poop::before,.bi-shit::before{content:"\💩";}
+.bi-radio::before{content:"\📻";}
+.bi-ruler::before{content:"\📏";}
+.bi-school::before{content:"\🏫";}
+.bi-ship::before{content:"\⛴";}
+.bi-shower::before{content:"\🚿";}
+.bi-skull::before{content:"\💀";}
+.bi-target::before{content:"\🎯";}
+.bi-ticket::before{content:"\🎫";}
+.bi-toilet::before{content:"\🚽";}
+.bi-trophy::before{content:"\🏆";}
+.bi-truck::before{content:"\26DF";}
+.bi-tv::before{content:"\📺";}
+.bi-umbrella::before{content:"\☂";}
+.bi-vhs::before{content:"\📼";}
+.bi-wrench::before{content:"\🔧";}
+
+/* Freakshow */
+.bi-alien::before{content:"\👽";}
+.bi-bat::before{content:"\🦇";}
+.bi-evil::before{content:"\👿";}
+.bi-fairy::before{content:"\🧚";}
+.bi-freak::before{content:"\👹";}
+.bi-genie::before{content:"\🧞";}
+.bi-ghost::before{content:"\👻";}
+.bi-mermaid::before{content:"\🧜";}
+.bi-spider::before{content:"\🕷";}
+.bi-unicorn::before{content:"\🦄";}
+.bi-web::before{content:"\🕸";}
+.bi-wizard::before{content:"\🧙";}
+.bi-vampire::before{content:"\🧛";}
+.bi-zombie::before{content:"\🧟";}
+
+/* Currencies */
+.bi-bitcoin::before{content:"\₿";}
+.bi-euro::before{content:"\€";}
+.bi-lira::before{content:"\₤";}
+.bi-peso::before{content:"\20B1";}
+
+/* Religion and Philosophy */
+.bi-communist::before{content:"\☭";}
+.bi-cross::before{content:"\2670";}
+.bi-faith::before{content:"\🕊";}
+.bi-islam::before{content:"\262A";}
+.bi-jew::before{content:"\2721";}
+.bi-khanda::before{content:"\262C";}
+.bi-peace::before{content:"\262E";}
+.bi-pentagram::before{content:"\⛤";}
+.bi-pentagram-i::before{content:"\⛧";}
+.bi-yin-yang::before{content:"\262F";}
+
+/* Misc Symbols */
+.bi-amp::before{content:"\⚡";}
+.bi-alternate::before{content:"\26D5";}
+.bi-atomic::before{content:"\269B";}
+.bi-audio::before{content:"\🎧";}
+.bi-awareness::before{content:"\🎗";}
+.bi-balance::before{content:"\⚖";}
+.bi-black-heart::before{content:"\1F5A4";}
+.bi-bowtie::before{content:"\⋈";}
+.bi-comet::before{content:"\☄";}
+.bi-core::before,.bi-fisheye::before{content:"\25C9";}
+.bi-divorce::before{content:"\26AE";}
+.bi-female::before{content:"\♀";}
+.bi-fleur::before{content:"\269C";}
+.bi-free::before{content:"\🆓";}
+.bi-gay::before{content:"\⚣";}
+.bi-global::before{content:"\🌐";}
+.bi-handicap::before{content:"\♿";}
+.bi-heat::before{content:"\♨";}
+.bi-heart::before,.bi-love::before{content:"\2764";}
+.bi-heart-o::before,.bi-love-o::before{content:"\2661";}
+.bi-history::before{content:"\ℍ";}
+.bi-infinity::before{content:"\∞";}
+.bi-king::before{content:"\♚";}
+.bi-launch::before{content:"\🚀";}
+.bi-lesbian::before{content:"\⚢";}
+.bi-loz::before{content:"\25C8";}
+.bi-male::before{content:"\♂";}
+.bi-marriage::before{content:"\26AD";}
+.bi-medical::before{content:"\☤";}
+.bi-men::before{content:"\🚹";}
+.bi-music::before{content:"\♫";}
+.bi-new::before{content:"\🆕";}
+.bi-no-smoking::before{content:"\🚭";}
+.bi-numero::before{content:"\2116";}
+.bi-ohm::before{content:"\Ω";}
+.bi-real::before,.bi-100::before{content:"\1F4AF";}
+.bi-partners::before{content:"\⚯";}
+.bi-per::before{content:"\214C";}
+.bi-pinwheel::before{content:"\2735";}
+.bi-prescribe::before{content:"\℞";}
+.bi-queen::before{content:"\♛";}
+.bi-recycle::before{content:"\♻";}
+.bi-reference::before{content:"\※";}
+.bi-sleep::before{content:"\💤";}
+.bi-sparkle::before{content:"\2734";}
+.bi-speak::before{content:"\🗣";}
+.bi-superstar::before{content:"\🌟";}
+.bi-tel::before{content:"\℡";}
+.bi-temperature::before{content:"\🌡";}
+.bi-underage::before{content:"\🔞";}
+.bi-unisex::before{content:"\🚻";}
+.bi-wait::before{content:"\⏳";}
+.bi-women::before{content:"\🚺";}
+.bi-wonder::before,.bi-magic::before{content:"\2728";}
+
+/* Emoticons */
+.bi-happy::before{content:"\☺";}
+.bi-sad::before{content:"\☹";}
+
+/* Interface and Actions */
+.bi-action::before{content:"\🎬";}
+.bi-play::before{content:"\⏯";}
+.bi-pause::before{content:"\⏸";}
+.bi-stop::before{content:"\⏹";}
+.bi-rec::before{content:"\⏺";}
+.bi-ff::before{content:"\⏩";}
+.bi-seek-next::before{content:"\⏭";}
+.bi-rewind::before{content:"\⏪";}
+.bi-seek-prev::before{content:"\⏮";}
+.bi-shuffle::before{content:"\🔀";}
+.bi-repeat::before{content:"\🔁";}
+.bi-repeat-once::before{content:"\🔂";}
+.bi-sync::before{content:"\🔄";}
+.bi-increase::before{content:"\🔼";}
+.bi-decrease::before{content:"\🔽";}
+.bi-top::before{content:"\🔝";}
+.bi-back::before{content:"\🔙";}
+.bi-verify::before{content:"\✅";}
+.bi-box::before{content:"\☐";}
+.bi-box-check::before{content:"\☑";}
+.bi-box-x::before{content:"\☒";}
+.bi-check::before{content:"\✔";}
+.bi-create::before{content:"\💫";}
+.bi-cut::before{content:"\✂";}
+.bi-phone::before{content:"\☎";}
+.bi-phone-o::before{content:"\☏";}
+.bi-email::before{content:"\✉";}
+.bi-clear::before{content:"\❎";}
+.bi-close::before,.bi-exit::before{content:"\✖";}
+.bi-announce::before,.bi-megaphone::before{content:"\📢";}
+.bi-broadcast::before{content:"\📡";}
+.bi-compress::before{content:"\🗜";}
+.bi-directory::before,.bi-folder::before{content:"\📂";}
+.bi-navigate::before{content:"\⛯";}
+.bi-notify::before,.bi-bell::before{content:"\🔔";}
+.bi-unnotify::before{content:"\🔕";}
+.bi-fill::before{content:"\25CD";}
+.bi-flag::before{content: "\⚑"; }
+.bi-flag-o::before{content: "\⚐";}
+.bi-grid::before{content:"\25A6";}
+.bi-time::before{content:"\⏱";}
+.bi-lock::before{content:"\🔒";}
+.bi-unlock::before{content:"\🔓";}
+.bi-download::before{content:"\📥";}
+.bi-upload::before{content:"\📤";}
+.bi-mute::before{content:"\🔇";}
+.bi-vol-l::before{content:"\🔈";}
+.bi-vol-m::before{content:"\🔉";}
+.bi-vol-h::before{content:"\🔊";}
+.bi-watch::before{content:"\👁";}
+.bi-calendar::before{content:"\📅";}
+.bi-package::before{content:"\📦";}
+.bi-attach::before{content:"\📎";}
+.bi-clipboard::before{content:"\📋";}
+.bi-control::before{content:"\⛮";}
+.bi-corners::before{content:"\⛶";}
+.bi-hub::before,.bi-network::before{content:"\2749";}
+.bi-pk::before,.bi-primary-key::before{content:"\26BF";}
+.bi-look::before{content:"\👀";}
+.bi-isolate::before,.bi-conjunction::before{content:"\☌";}
+.bi-join::before,.bi-opposition::before{content:"\☍";}
+.bi-pencil::before,.bi-edit::before{content:"\✎";}
+.bi-compose::before{content:"\✍";}
+.bi-forum::before{content:"\🗨";}
+.bi-gear::before{content:"\⛭";}
+.bi-file::before{content:"\📄";}
+.bi-pin::before{content:"\📌";}
+.bi-pinpoint::before{content:"\📍";}
+.bi-save::before{content:"\💾";}
+.bi-star::before{content:"\★";}
+.bi-star-o::before{content:"\☆";}
+.bi-tools::before{content:"\🛠";}
+.bi-bar-graph::before{content:"\📊";}
+.bi-cart::before,.bi-shop::before{content:"\🛒";}
+.bi-chat::before{content:"\💬";}
+.bi-approve::before{content:"\👍";}
+.bi-disapprove::before{content:"\👎";}
+.bi-wave::before{content:"\👋";}
+.bi-f-off::before{content:"\1F595";}
+.bi-halt::before{content:"\270B";}
+
+/* Nature */
+.bi-autumn::before,.bi-fall::before{content:"\🍂";}
+.bi-cactus::before{content:"\🌵";}
+.bi-camp::before,.bi-camping::before{content:"\26FA";}
+.bi-cloud::before{content:"\☁";}
+.bi-clover::before{content:"\🍀";}
+.bi-eggplant::before,.bi-dick::before{content:"\🍆";}
+.bi-daisy::before{content:"\🌼";}
+.bi-eagle::before{content:"\🦅";}
+.bi-earth::before{content:"\🌎";}
+.bi-exotic::before{content:"\🌺";}
+.bi-fire::before,.bi-hot::before{content:"\🔥";}
+.bi-flower::before{content:"\✿";}
+.bi-galaxy::before{content:"\🌌";}
+.bi-hurricane::before{content:"\🌀";}
+.bi-leaf::before{content:"\🍁";}
+.bi-mountain::before{content:"\🗻";}
+.bi-ocean::before{content:"\🌊";}
+.bi-palm::before{content:"\🌴";}
+.bi-pine::before{content:"\🌲";}
+.bi-peach::before,.bi-ass::before,.bi-butt::before{content:"\🍑";}
+.bi-rain::before{content: "\⛆";}
+.bi-rainbow::before{content:"\🌈";}
+.bi-rose::before{content:"\🌹";}
+.bi-snake::before{content:"\🐍";}
+.bi-snowflake::before{content:"\❄";}
+.bi-shamrock::before{content: "\☘";}
+.bi-shooting-star::before{content:"\🌠";}
+.bi-sprout::before{content:"\🌱";}
+.bi-sun::before{content: "\☀";}
+.bi-weather::before{content: "\⛅";}
+.bi-sunflower::before{content:"\🌻";}
+.bi-sunset-land::before{content:"\🌄";}
+.bi-sunset-sea::before{content:"\🌅";}
+.bi-thunderstorm::before,.bi-t-storm::before{content: "\⛈";}
+.bi-tornado::before{content:"\🌪";}
+.bi-tree::before{content:"\🌳";}
+.bi-tulip::before{content:"\🌷";}
+.bi-volcano::before{content:"\🌋";}
+.bi-water::before{content:"\💧";}
+.bi-wet::before{content:"\💦";}
+
+/* Food */
+.bi-apple::before{content:"\🍎";}
+.bi-bacon::before{content:"\1F953";}
+.bi-banana::before{content:"\🍌";}
+.bi-beer::before{content:"\🍺";}
+.bi-bread::before{content:"\🍞";}
+.bi-burger::before{content:"\🍔";}
+.bi-carrot::before{content:"\1F955";}
+.bi-cheese::before{content:"\1F9C0";}
+.bi-cherry::before{content:"\🍒";}
+.bi-coconut::before{content:"\1F965";}
+.bi-coffee::before, .bi-covfefe::before { content: "\☕";}
+.bi-cone::before{content:"\🍦";}
+.bi-corn::before{content:"\🌽";}
+.bi-cookie::before{content:"\🍪";}
+.bi-donut::before{content:"\🍩";}
+.bi-drink::before{content:"\🥤";}
+.bi-drumstick::before{content:"\1F357";}
+.bi-grape::before,.bi-grapes::before{content:"\🍇";}
+.bi-honey::before{content:"\🍯";}
+.bi-hotdog::before{content:"\🌭";}
+.bi-kiwi::before{content:"\1F95D";}
+.bi-lemon::before{content:"\🍋";}
+.bi-mushroom::before{content:"\🍄";}
+.bi-orange::before{content:"\🍊";}
+.bi-pancake::before,.bi-pancakes::before{content:"\1F95E";}
+.bi-pear::before{content:"\🍐";}
+.bi-pickle::before{content:"\1F952";}
+.bi-pie::before{content:"\1F967";}
+.bi-pineapple::before{content:"\🍍";}
+.bi-pizza::before{content:"\🍕";}
+.bi-potato::before{content:"\1F954";}
+.bi-pretzel::before{content:"\1F968";}
+.bi-salad::before{content:"\1F957";}
+.bi-sandwich::before,.bi-sammich::before {content:"\🥪";}
+.bi-steak::before{content:"\1F969";}
+.bi-strawberry::before{content:"\🍓";}
+.bi-taco::before{content:"\🌮";}
+.bi-tomato::before{content:"\🍅";}
+.bi-watermelon::before{content:"\🍉";}
+.bi-wine::before{content:"\🍷";}
+
+/* Astrology */
+.bi-aquarius::before{content:"\2652";}
+.bi-aries::before{content:"\2648";}
+.bi-cancer::before{content:"\264B";}
+.bi-capricorn::before{content:"\2651";}
+.bi-gemini::before{content:"\264A";}
+.bi-leo::before{content:"\264C";}
+.bi-libra::before{content:"\264E";}
+.bi-pisces::before{content:"\2653";}
+.bi-saggitarius::before{content:"\2650";}
+.bi-scorpius::before{content:"\264F";}
+.bi-taurus::before{content:"\2649";}
+.bi-virgo::before{content:"\264D";}
+.bi-mercury::before{content:"\263F";}
+.bi-jupiter::before{content:"\2643";}
+.bi-saturn::before{content:"\2644";}
+.bi-uranus::before{content:"\2645";}
+.bi-neptune::before{content:"\2646";}
+.bi-pluto::before{content:"\2647";}
+.bi-ceres::before{content:"\26B3";}
+.bi-chiron::before{content:"\26B7";}
+.bi-juno::before{content:"\26B5";}
+.bi-lilith::before{content:"\26B8";}
+.bi-pallas::before{content:"\26B4";}
+.bi-vesta::before{content:"\26B6";}                                                                                                                                                                  
