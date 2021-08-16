@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" class="slime-t">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Sputnik - Home</title>
+		<link rel="stylesheet" href="./Brutalist-Framework/core/css/dev/core.css" />
+		<!-- <link
+			rel="stylesheet"
+			href="./Brutalist-Framework/core/bell/css/bell.css"
+		/> -->
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body class="lucida comfortable black guard">
+		<header class="row bw100 between center">
+			<h1 class="heavy fluid-text invert-h">
+				<a href="index.html" class="slime-t bold fineprint"> Sputnik </a>
+			</h1>
+			<nav>
+				<ul class="row none no-pad">
+					<li class="black invert-h">
+						<a href="index.html" class="padded slime-t bold link">Home</a>
+					</li>
+					<li class="black invert-h">
+						<a href="cadastro.html" class="padded slime-t bold link"
+							>Cadastro</a
+						>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<h1 class="heavy fluid-text slime-t bold isolated larger center">
+				Como podemos ajudar?
+			</h1>
+			<div class="piss-grid isolated">
+				<ul class="no-pad">
+					<li class="piss-item fluid-text">
+						<a href="" class="slime-t"> Atualizações de Preços </a>
+					</li>
+					<li class="piss-item fluid-text">
+						<a href="" class="slime-t">
+							Criar ou Entrar num plano de Família
+						</a>
+					</li>
+					<li class="piss-item fluid-text">
+						<a href="" class="slime-t"> Ajuda com pagamento não efetuado </a>
+					</li>
+					<li class="piss-item fluid-text">
+						<a href="" class="slime-t"> Não consigo redefinir a senha </a>
+					</li>
+				</ul>
+			</div>
+		</main>
+		<script src="Brutalist-Framework/core/js/jquery.3.js"></script>
+		<script src="Brutalist-Framework/core/bell/js/bell.js"></script>
+		<script>
+			$(document).ready(function () {
+				$('.piss-grid').hip({
+					itemsPerPage: 12,
+					itemsPerRow: 1,
+					itemGaps: '20px',
+					filter: true,
+					filterPos: 'center',
+					paginationPos: 'center',
+				});
+			});
+		</script>
+	</body>
+</html>
