@@ -43,6 +43,42 @@ body {
 .pad {
 	padding: 0.5rem;
 }
+.jumbo-btn {
+	border: inset 2px #bce954 !important;
+}
+.jumbo-btn:active {
+	filter: invert(100%);
+	-webkit-filter: invert(100%);
+}
+form label.full input {
+	margin: 0;
+}
+form label.full input[type='date']::-webkit-calendar-picker-indicator {
+	filter: invert(100%);
+	-webkit-filter: invert(100%);
+	margin-right: -0.75rem;
+	cursor: pointer;
+}
+.jumbo-input {
+	padding: 1.75rem !important;
+}
+input::placeholder {
+	color: #bce954;
+}
+input:focus {
+	border: 3px solid #bce954;
+	outline: none !important;
+}
+#birth {
+	padding: 1.5rem !important;
+}
+.indent {
+	text-indent: 1rem !important;
+}
+.tiny-indent {
+	text-indent: 0.5rem !important;
+}
+
 .unpad {
 	padding: 0 !important;
 	margin: -0.5rem !important;
@@ -76,9 +112,7 @@ body {
 	-moz-row-gap: 20px;
 	row-gap: 20px;
 }
-.indent {
-	text-indent: 1rem !important;
-}
+
 .piss-search {
 	height: 7vh;
 	display: flex;
