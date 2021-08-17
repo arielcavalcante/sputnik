@@ -46,6 +46,10 @@ body {
 .jumbo-btn {
 	border: inset 2px #bce954 !important;
 }
+.jumbo-btn:hover {
+	filter: invert(100%);
+	-webkit-filter: invert(100%);
+}
 .jumbo-btn:active {
 	filter: invert(100%);
 	-webkit-filter: invert(100%);
@@ -83,27 +87,52 @@ input:focus {
 	padding: 0 !important;
 	margin: -0.5rem !important;
 }
+.auto {
+	padding: 20% 0;
+}
 .column {
-	display: flex;
+	display: flex !important;
 	flex-direction: column;
 }
 .isolated {
 	margin: 4.3rem 0;
 }
+.marg-bot {
+	margin-bottom: 4.3rem !important;
+}
+.inline label {
+	vertical-align: super;
+}
 .no-wrap {
 	flex-wrap: nowrap;
 }
+.wrap {
+	flex-wrap: wrap;
+}
 .left-t {
 	align-items: flex-start;
+}
+.left-self {
+	align-self: flex-start;
 }
 
 .isolated-tiny {
 	margin: 0.125rem 0;
 }
 .flex {
-	display: flex;
+	display: flex !important;
 }
-
+.row.checkbox {
+	position: relative;
+}
+.row.checkbox input {
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%);
+}
+/* .row.checkbox{
+	
+} */
 .rowgap10 {
 	-moz-row-gap: 10px;
 	row-gap: 10px;
@@ -111,6 +140,14 @@ input:focus {
 .rowgap20 {
 	-moz-row-gap: 20px;
 	row-gap: 20px;
+}
+.rowgap30 {
+	-moz-row-gap: 30px;
+	row-gap: 30px;
+}
+.rowgap40 {
+	-moz-row-gap: 40px;
+	row-gap: 40px;
 }
 
 .piss-search {
@@ -142,6 +179,13 @@ input:focus {
 .piss-pagination a:hover {
 	filter: invert(100%);
 	-webkit-filter: invert(100%);
+}
+
+#dados,
+#termos-e-condicoes,
+#marketing {
+	width: 1.5rem !important;
+	height: 1.5rem !important;
 }
 @media only screen and (min-width: 745px) {
 	.piss-search {

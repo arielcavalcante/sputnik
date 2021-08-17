@@ -29,42 +29,158 @@
 			<h1 class="heavy fluid-text slime-t bold isolated larger center">
 				Inscreva-se grátis e comece a curtir
 			</h1>
-			<form class="column bw100">
-				<button class="jumbo-btn full-btn slime black-t heavy">
-					Inscrever-se com o Facebook
-				</button>
-				<p class="isolated">ou</p>
-				<label class="full"
-					><input
-						id="emailbox"
-						type="email"
-						class="black slime-t b-a-t slime-b jumbo-input block indent black-t"
-						placeholder="Insira seu email"
-				/></label>
-				<label class="full"
-					><input
-						id="pw1"
-						type="password"
-						class="black slime-t b-a-t slime-b jumbo-input block indent black-t"
-						placeholder="Crie uma senha"
-				/></label>
-				<label class="full"
-					><input
-						id="uname"
-						type="text"
-						class="black slime-t b-a-t slime-b jumbo-input block indent black-t"
-						placeholder="Crie um nome de Perfil"
-				/></label>
-				<label class="full"
-					><input
-						id="birth"
-						type="date"
-						class="black slime-t b-a-t slime-b jumbo-input block tiny-indent black-t full"
-						placeholder="Data de Nascimento"
-				/></label>
+			<form class="column">
+				<div class="form-group">
+					<button class="jumbo-btn full-btn slime black-t heavy">
+						Inscrever-se com o Facebook
+					</button>
+					<p class="isolated">ou</p>
+				</div>
+				<div class="form-group column rowgap30">
+					<label class="full"
+						><input
+							id="emailbox"
+							type="email"
+							class="
+								black
+								slime-t
+								b-s-k
+								love-b-h
+								slime-b
+								jumbo-input
+								block
+								indent
+								black-t
+							"
+							placeholder="Insira seu email"
+					/></label>
+					<label class="full"
+						><input
+							id="pw1"
+							type="password"
+							class="
+								black
+								slime-t
+								b-s-k
+								slime-b
+								jumbo-input
+								block
+								indent
+								black-t
+							"
+							placeholder="Crie uma senha"
+					/></label>
+					<label class="full"
+						><input
+							id="uname"
+							type="text"
+							class="
+								black
+								slime-t
+								b-s-k
+								slime-b
+								jumbo-input
+								block
+								indent
+								black-t
+							"
+							placeholder="Crie um nome de Perfil"
+					/></label>
+					<label class="full"
+						><input
+							id="birth"
+							type="date"
+							class="
+								black
+								slime-t
+								b-s-k
+								slime-b
+								jumbo-input
+								block
+								tiny-indent
+								black-t
+								full
+							"
+							placeholder="Data de Nascimento"
+					/></label>
+				</div>
+				<div class="container column rowgap10 isolated">
+					<h5 class="slime-t left-t">Gênero</h5>
+					<!-- RADIO BUTTONS -->
+					<div class="form-group gap40 flex center wrap">
+						<div class="inline">
+							<input
+								type="radio"
+								name="gender"
+								value="feminino"
+								id="feminino"
+							/>
+							<label for="feminino">Feminino</label>
+						</div>
+						<div class="inline">
+							<input
+								type="radio"
+								name="gender"
+								value="masculino"
+								id="masculino"
+							/>
+							<label for="masculino">Masculino</label>
+						</div>
+						<div class="inline">
+							<input
+								type="radio"
+								name="gender"
+								value="nao-binario"
+								id="nao-binario"
+							/>
+							<label for="nao-binario">Não-Binário</label>
+						</div>
+					</div>
+				</div>
+				<!-- CHECKBOXES -->
+				<div class="form-group column rowgap30 center bw100 left-t marg-bot">
+					<div class="inline">
+						<input
+							type="checkbox"
+							name="gender"
+							value="marketing"
+							id="marketing"
+						/>
+						<label class="left-t" for="marketing"
+							>Quero receber marketing do Sputnik</label
+						>
+					</div>
+					<div class="inline">
+						<input type="checkbox" name="gender" value="dados" id="dados" />
+						<label class="left-t" for="dados"
+							>Compartilhar meus dados cadastrais com toda a mãe Russia</label
+						>
+					</div>
+					<div class="inline">
+						<input
+							type="checkbox"
+							name="gender"
+							value="termos-e-condicoes"
+							id="termos-e-condicoes"
+							required
+						/>
+						<label class="left-t" for="termos-e-condicoes"
+							>Eu concordo com os
+							<b
+								><a href="" class="pad link black slime-t invert-h"
+									>Termos e Condições de Uso do Sputnik</a
+								></b
+							></label
+						>
+					</div>
+				</div>
 				<button class="jumbo-btn full-btn slime black-t heavy" id="createAcct">
 					Criar Conta
 				</button>
+				<h6 class="isolated">
+					Já tem uma conta?
+					<a href="" class="pad link black slime-t invert-h">Faça login</a>
+				</h6>
 			</form>
 		</main>
 		<script src="Brutalist-Framework/core/js/jquery.3.js"></script>
