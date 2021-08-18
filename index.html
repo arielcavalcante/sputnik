@@ -6,17 +6,22 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Sputnik - Home</title>
 		<link rel="stylesheet" href="./Brutalist-Framework/core/css/dev/core.css" />
+		<link rel="stylesheet" href="./Brutalist-Framework/core/css/dev/buix.css" />
+		<link
+			rel="stylesheet"
+			href="./Brutalist-Framework/core/bell/css/bell.css"
+		/>
 		<link rel="stylesheet" href="./style.css" />
 	</head>
 	<body class="lucida comfortable black guard">
 		<header class="row bw100 between center">
 			<h1 class="heavy fluid-text invert-h">
-				<a href="index.html" class="slime-t bold"> Sputnik </a>
+				<a href="index.html" class="slime-t bold"> Sputnik</a>
 			</h1>
 			<nav>
 				<ul class="row none no-pad">
 					<li class="black invert-h">
-						<a href="faq.html" class="padded slime-t bold link">FAQ</a>
+						<a href="faq.html" class="clearfix padded slime-t bold link">FAQ</a>
 					</li>
 					<li class="black invert-h">
 						<a href="cadastro.html" class="padded slime-t bold link"
@@ -151,7 +156,10 @@
 			</section>
 			<section class="isolated" id="releases">
 				<h2 class="fluid-text bold">Lançamentos</h2>
-				<a href="" class="tile row invert-h no-wrap shift-glitch">
+				<a
+					href="#player1"
+					class="player-link tile row invert-h no-wrap shift-glitch"
+				>
 					<div class="thumbnail square comfortable slime bw25">
 						<svg
 							fill="none"
@@ -175,9 +183,9 @@
 							stretch
 						"
 					>
-						<h3 class="fluid-text heavy confined">Flutua</h3>
+						<h3 class="fluid-text heavy confined">Ding Dong!</h3>
 						<p class="fluid-text isolated-tiny">
-							<b>Single</b> • Johnny Hooker • Pabllo Vittar • Majur
+							<b>Single</b> • KATYA feat. Trixie Mattel
 						</p>
 						<span class="smaller bold">2 dias atrás</span>
 					</div>
@@ -211,6 +219,36 @@
 								QuebraDev
 							</h6>
 							<span class="smaller center">Podcast</span>
+						</div>
+					</a>
+					<a
+						href="#player2"
+						class="player-link bw20 column loop-item invert-h glitch"
+					>
+						<div class="square">
+							<img
+								class="responsive"
+								src="./assets/come-to-brazil.jpg"
+								alt="Capa do single Come to Brazil, de KATYA Zamolodchikova e Alaska Thunderfuck. Alaska aparece com uma roupa de penas carnavalesca."
+							/>
+						</div>
+						<div
+							class="
+								brick
+								black
+								slime-b slime-text
+								column
+								center
+								left
+								stretch
+								scroller-wrap
+								nowrap
+							"
+						>
+							<h6 class="fluid-text isolated-tiny heavy scroll-left bw100">
+								Come to Brazil
+							</h6>
+							<span class="smaller center">Single</span>
 						</div>
 					</a>
 					<a href="" class="bw20 column loop-item invert-h">
@@ -261,8 +299,8 @@
 								nowrap
 							"
 						>
-							<h6 class="fluid-text isolated-tiny heavy scroll-left bw100">
-								Marmota Marmota
+							<h6 class="fluid-text isolated-tiny heavy scroll-left">
+								Marmota &nbsp
 							</h6>
 							<span class="smaller center">Álbum</span>
 						</div>
@@ -321,31 +359,7 @@
 							<span class="smaller center">Podcast</span>
 						</div>
 					</a>
-					<a href="" class="bw20 column loop-item invert-h">
-						<div class="square">
-							<img
-								class="responsive"
-								src="./assets/flutua.jpg"
-								alt="Capa do single Flutua, com Majur, Johnny Hooker e Pabllo Vittar e um texto em que se lê 'Flutua' e o nome das pessoas que cantam."
-							/>
-						</div>
-						<div
-							class="
-								brick
-								black
-								slime-b slime-text
-								column
-								center
-								left
-								stretch
-								scroller-wrap
-								nowrap
-							"
-						>
-							<h6 class="fluid-text isolated-tiny heavy scroll-left">Flutua</h6>
-							<span class="smaller center">Single</span>
-						</div>
-					</a>
+
 					<a href="" class="bw20 column loop-item invert-h">
 						<div class="square">
 							<img
@@ -376,8 +390,42 @@
 				</div>
 			</section>
 		</main>
+		<!-- music players -->
+		<section id="player" class="sticky-bottom">
+			<div id="player1">
+				<audio
+					class="baudio"
+					data-title="Ding Dong!"
+					data-artist="KATYA feat. Trixie Mattel"
+				>
+					<source src="./assets/dingdong.m4a" data-track-number="1" />
+				</audio>
+			</div>
+			<div id="player2">
+				<audio
+					class="baudio"
+					data-title="Come to Brazil"
+					data-artist="KATYA feat. Alaska Thunderfuck"
+				>
+					<source src="./assets/come-to-brazil.m4a" data-track-number="2" />
+				</audio>
+			</div>
+		</section>
 		<script src="./Brutalist-Framework/core/js/jquery.3.js"></script>
 		<script src="./Brutalist-Framework/core/js/brutalist.js"></script>
 		<script src="./Brutalist-Framework/core/js/start.brutalizing.js"></script>
+		<script src="./Brutalist-Framework/core/bell/js/bell.js"></script>
+		<script>
+			$(document).ready(function () {
+				$('.piss-grid').hip({
+					itemsPerPage: 12,
+					itemsPerRow: 1,
+					itemGaps: '20px',
+					filter: true,
+					filterPos: 'center',
+					paginationPos: 'center',
+				});
+			});
+		</script>
 	</body>
 </html>
