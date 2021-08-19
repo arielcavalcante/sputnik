@@ -266,7 +266,7 @@ tbody tr:hover {
 		padding: 0;
 	}
 }
-/* Mobile Touchscreens */
+/* Mobile and Touchscreens */
 @media (pointer: none) and (pointer: coarse) {
 	.piss-search {
 		height: 14vh;
@@ -277,7 +277,7 @@ tbody tr:hover {
 	}
 }
 /* Desktops */
-@media (hover: hover) and (pointer: fine) {
+@media (min-width: 601px) and (hover: hover), (pointer: fine) {
 	.scroll-hor {
 		flex-wrap: wrap;
 		justify-content: space-between;
@@ -286,4 +286,9 @@ tbody tr:hover {
 		display: block !important;
 		margin-bottom: 1.5rem;
 	}
+}
+body main,
+header {
+	margin: auto !important;
+	max-width: 1000px !important;
 }
