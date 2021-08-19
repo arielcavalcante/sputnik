@@ -255,6 +255,16 @@ tbody tr:hover {
 		-ms-overflow-style: none;
 		scrollbar-width: none;
 	}
+	table.responsive tr {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		border-color: black;
+	}
+	table.responsive td {
+		display: inline-block;
+		padding: 0;
+	}
 }
 /* Mobile Touchscreens */
 @media (pointer: none) and (pointer: coarse) {
